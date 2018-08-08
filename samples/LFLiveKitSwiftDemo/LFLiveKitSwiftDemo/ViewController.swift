@@ -127,7 +127,7 @@ class ViewController: UIViewController, LFLiveSessionDelegate {
         if (startLiveButton.isSelected) {
             startLiveButton.setTitle("结束直播", for: UIControlState())
             let stream = LFLiveStreamInfo()
-            stream.url = "rtmp://live.hkstv.hk.lxdns.com:1935/live/stream153"
+            stream.url = "rtmp://175.193.239.77:1935/dealive/ios"
             session.startLive(stream)
         } else {
             startLiveButton.setTitle("开始直播", for: UIControlState())
